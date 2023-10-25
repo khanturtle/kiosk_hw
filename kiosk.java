@@ -6,11 +6,11 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class kiosk {
+public class kiosk {//
     public static void main(String[] args) throws InterruptedException {
         String shop = "알트콤마";
         Scanner sc = new Scanner(System.in);
-
+//수정
         Menu menu1 = new Menu("Food","식사류, 가볍게 먹을 수 있는핑거푸드");
         Menu menu2 = new Menu("Cocktail","시그니처 칵테일");
         Menu menu3 = new Menu("Whiskey","다양한 종류의 위스키");
